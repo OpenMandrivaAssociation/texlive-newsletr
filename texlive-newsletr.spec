@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/plain/contrib/newsletr
+# catalog-date 2006-12-22 19:14:47 +0100
+# catalog-license other-free
+# catalog-version undef
 Name:		texlive-newsletr
 Version:	20061222
 Release:	1
@@ -44,6 +50,7 @@ TeXLive newsletr package.
 %doc %{_texmfdistdir}/doc/plain/newsletr/quote.tex
 %doc %{_texmfdistdir}/doc/plain/newsletr/read.me
 %doc %{_texmfdistdir}/doc/plain/newsletr/sample.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ TeXLive newsletr package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
