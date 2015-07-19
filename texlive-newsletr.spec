@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-newsletr
 Version:	20061222
-Release:	9
+Release:	10
 Summary:	Macros for making newsletters with Plain TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/newsletr
