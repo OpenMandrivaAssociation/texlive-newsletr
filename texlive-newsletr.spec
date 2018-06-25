@@ -5,7 +5,7 @@
 # catalog-license other-free
 # catalog-version undef
 Name:		texlive-newsletr
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Macros for making newsletters with Plain TeX
 Group:		Publishing
