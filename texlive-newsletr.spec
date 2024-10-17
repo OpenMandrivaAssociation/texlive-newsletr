@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Macros for making newsletters with Plain TeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/newsletr
+URL:		https://www.ctan.org/tex-archive/macros/plain/contrib/newsletr
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/newsletr.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/newsletr.doc.r%{version}.tar.xz
